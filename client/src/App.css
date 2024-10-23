@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.btn {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.green {
+  background-color: green;
+  color: #fff;
+}
+
+.green:hover {
+  background-color: rgb(3, 79, 3);
+}
+
+.red {
+  background-color: red;
+  color: #fff;
+}
+
+.red:hover {
+  background-color: rgb(121, 3, 3);
+}
+
+.input-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-search input{
+  width: 300px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.table {
+  width: 100%;
+  cursor: pointer;
+}
+
+table, tr, th, td, caption {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+.table th {
+  background-color: #ccc;
+  color: #333;
+}
+
+.table tr:nth-child(even) {
+  background-color: #ccc;
+  color: #333;
+  border: 1px solid black;
+}
+
+.table tr:hover {
+  background-color: rgb(58, 79, 3);
+  color: #ccc;
+}
